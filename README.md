@@ -8,9 +8,8 @@ This is mainly for demo purposes, and works best if you already have the officia
 
 See https://github.com/salesforcecli/mcp
 
-The official MCP only gives you read only operations (probably a good thing). This MCP adds the
-sf bulk delete operation as well. You also need to sf installed locally and you need to be 
-authenticated to an Org. Probably the official MCP can do that for you (I didn't test it).
+The official Salesforce CLI MCP provides read-only operations by design. This project extends it with a bulk delete
+operation, primarily to demonstrate the pattern of wrapping CLI commands as MCP tools.
 
 ## Why "Dangerous"?
 
