@@ -12,6 +12,10 @@ The official MCP only gives you read only operations (probably a good thing). Th
 sf bulk delete operation as well. You also need to sf installed locally and you need to be 
 authenticated to an Org. Probably the official MCP can do that for you (I didn't test it).
 
+## Why "Dangerous"?
+
+Because giving an AI agent the ability to run destructive CLI commands (like bulk-deleting records) is inherently risky. This project exists to show that it's *possible*, not that it's always *advisable*. Use responsibly.
+
 ## What's Inside
 
 | File | Purpose |
@@ -76,7 +80,3 @@ Add the server to your MCP client config. For example, in Claude Desktop's `clau
 Then ask Claude something like:
 
 > *"Delete all Accounts that have "TEST" in the name"*
-
-## Why "Dangerous"?
-
-Because giving an AI agent the ability to run destructive CLI commands (like bulk-deleting records) is inherently risky. This project exists to show that it's *possible*, not that it's always *advisable*. Use responsibly.
